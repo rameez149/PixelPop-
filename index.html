@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="pixelpop_logo.png" alt="PixelPop Logo" class="logo">
+            <h1>PixelPop</h1>
+        </div>
+        <div class="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Log In</button>
+            <p>Don't have an account? <a href="#" onclick="showSignup()">Sign Up</a></p>
+        </div>
+        <div class="signup-form" style="display: none;">
+            <input type="text" id="newUsername" placeholder="New Username">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="newPassword" placeholder="New Password">
+            <div class="agreement">
+                <input type="checkbox" id="agreeTerms">
+                <label for="agreeTerms">I agree to the <a href="#" onclick="showUserAgreement()">User Agreement</a></label>
+            </div>
+            <button onclick="signup()">Sign Up</button>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Log In</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 PixelPop. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

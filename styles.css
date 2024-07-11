@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #262626;
+    margin: 0;
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0081d6;
+}
+
+a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.agreement input {
+    width: auto;
+    margin-right: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+/* Styles for the home page */
+.home-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a, nav span {
+    color: #262626;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post-actions {
+    padding: 10px;
+}
+
+.comments {
+    padding: 10px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.comments input {
+    width: calc(100% - 70px);
+    margin-right: 10px;
+}
+
+.comments button {
+    width: 60px;
+}
+
+/* Profile styles */
+.profile-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Wallet display */
+.wallet {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
